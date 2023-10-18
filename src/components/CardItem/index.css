@@ -1,0 +1,49 @@
+.card-1 {
+  border-top: 5px solid #ff4f64;
+}
+
+.card-2 {
+  border-top: 5px solid #00a8e7;
+}
+
+.card-3 {
+  border-top: 5px solid #44c4a1;
+}
+
+.card-4 {
+  border-top: 5px solid #fcc200;
+}
+
+/* Write CSS code here. */
+
+.card-cont {
+  border-radius: 6px;
+  padding: 12px;
+  background-color: white;
+  width: 350px;
+  margin-bottom: 40px;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.card-img {
+  height: 70px;
+  width: 70px;
+  align-self: flex-end;
+}
+.card-head {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
+}
+
+.card-para {
+  font-family: 'Roboto';
+  font-size: 17px;
+  color: #64748b;
+}
